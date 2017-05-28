@@ -1,4 +1,12 @@
 <?php
+/*
+  Plugin Name: rng-slider
+  Plugin URI: http://gnutec.ir
+  Description: wordpress plugin for your slider backend
+  Version: 0.1
+  Author: abolfazl sabagh
+  Author URI: http://gnutec.ir
+ */
 require_once 'admin-head.php';
 
 function rng_add_menu_page() {
