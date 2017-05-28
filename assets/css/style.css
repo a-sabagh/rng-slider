@@ -1,0 +1,52 @@
+.accordian li{
+    background: #dbdbdb;
+    border-radius: 7px;
+    border: 1px solid #c2c2c2;
+    width: 50%;
+    position: relative;
+}
+.accordian li .slider-remove-el{
+    position: absolute;
+    left: -100px;
+    top: 2px;
+    border: 1px solid red;
+    background: #ff6161;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.accordian li h3{
+    border-radius: 7px 7px 0 0;
+    padding: 0 8px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0;
+    color: #23282d;
+    line-height: 2em;
+    font-weight: normal;
+}
+.accordian .accordian-panel{
+    background: white;
+    border-radius: 0 0 7px 7px;
+    padding: 10px;
+    display: none;
+}
+.rng-button-banner{
+    height: 36px !important;
+    line-height: 36px !important;
+}
+.rng-poster-holder{
+    width: 81%;
+    text-align: left;
+    line-height: 26px;
+}
+.full-input{
+    display: block;
+    width: 99%;
+    height: 36px;
+}
+.full-textarea{
+    width: 99%;
+    height: 120px;
+}
